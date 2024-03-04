@@ -2,7 +2,6 @@
 
     var width, height, largeHeader, canvas, ctx, circles, target, animateHeader = true;
 
-    // Main
     initHeader();
     addListeners();
 
@@ -19,7 +18,6 @@
         canvas.height = height;
         ctx = canvas.getContext('2d');
 
-        // create particles
         circles = [];
         for(var x = 0; x < width*0.5; x++) {
             var c = new Circle();
@@ -28,7 +26,6 @@
         animate();
     }
 
-    // Event handling
     function addListeners() {
         window.addEventListener('scroll', scrollCheck);
         window.addEventListener('resize', resize);
@@ -57,7 +54,6 @@
         requestAnimationFrame(animate);
     }
 
-    // Canvas manipulation
     function Circle() {
         var _this = this;
 
