@@ -1126,6 +1126,11 @@ a:focus {
   text-transform: uppercase;
 }
 
+.site-header .navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #7cafa5;
+  text-decoration: line-through;
+}
+
 @media screen and (min-width: 992px) {
   .site-header #navbar li {
     position: relative;
@@ -1913,9 +1918,9 @@ a:focus {
   -ms-border-radius: 50%;
   border-radius: 50%;
   opacity: 0;
-  -webkit-transition: 1s 2.3s ease-in-out;
-  -o-transition: 1s 2.3s ease-in-out;
-  transition: 1s 2.3s ease-in-out;
+  -webkit-transition: 1s 1.3s ease-in-out;
+  -o-transition: 1s 1.3s ease-in-out;
+  transition: 1s 1.3s ease-in-out;
 }
 
 @media (max-width: 1199px) {
@@ -3032,7 +3037,7 @@ a:focus {
 
 @media (max-width: 767px) {
   .inportant-people-section .tablist {
-    margin-bottom: 35px;
+    margin-bottom: 105px;
   }
 }
 
@@ -3043,7 +3048,7 @@ a:focus {
 
 .inportant-people-section .tablist ul li {
   float: left;
-  margin: 0 10px;
+  margin: 3px 3px;
 }
 
 .inportant-people-section .tablist ul li a {
